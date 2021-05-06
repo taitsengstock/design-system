@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from 'carbon-components-react';
 
 function App() {
   return (
@@ -7,7 +8,6 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          test
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -15,9 +15,10 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
+        > 
           Learn React
         </a>
+        <Button>Hello React!</Button>
       </header>
     </div>
   );
